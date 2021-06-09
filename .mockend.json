@@ -4,10 +4,11 @@
     "AverageRating": "int",
     "ReleaseDate": "date",
     "BoxOffice": "float",
-    "Directors":"Director"
+    "directors":"Director"
   },
   "Director": {
     "name": "string",
     "Salary": "int"
+    "film":"Film"
   }
 }
