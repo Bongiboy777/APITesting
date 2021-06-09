@@ -9,6 +9,6 @@
   "Director": {
     "name": "string",
     "Salary": "int"
-    "film":"Film"
+    "films":"Film[]"
   }
 }
