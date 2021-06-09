@@ -1,11 +1,13 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "Film": {
+    "title": "string",
+    "AverageRating": "int",
+    "ReleaseDate": "date",
+    "BoxOffice": "float",
+    "directors":"Director"
+  },
+  "Director": {
+    "name": "string",
+    "Salary": "int"
   }
 }
