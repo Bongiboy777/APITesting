@@ -1,13 +1,13 @@
 {
-  "Post": {
+  "Film": {
     "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+    "AverageRating": "int",
+    "ReleaseDate": "date",
+    "BoxOffice": "float",
+    "Director":"Director"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Director": {
+    "name": "string",
+    "Films": "Film[]"
   }
 }
